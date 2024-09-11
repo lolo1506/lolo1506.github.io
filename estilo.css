@@ -12,10 +12,12 @@ li {
 body {
     background-color: #f0c5d9;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 a{
     color: rgb(106, 10, 55);
+    
 }
 
 a:hover{
@@ -29,5 +31,31 @@ h1{
 }
 
 h3{
-    color: #420421;  
+    color: #420421; 
+    text-align: center; 
+ }
+
+ h4{
+    color: #420421; 
+    text-align: center;
+    
+ }
+
+ p{
+    color: #420421; 
+    text-align: center;
+ }
+
+ .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+ }
+
+ .galeria img:hover{
+    transform: scale(1.05);
+ }
+
+ img{
+    border-radius: 5%;
  }
